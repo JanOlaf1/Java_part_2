@@ -2,6 +2,11 @@ import java.util.Scanner;
 import java.text.DecimalFormat;
 
 public class Matka {
+	/*
+	 * Tee ohjelma Matka, joka kysyy käyttäjältä matkan pituuden ja keskinopeuden
+	 * kokonaislukuina. Ohjelma laskee ja tulostaa matkaan kuluvan ajan tunteina
+	 * kahdella desimaalilla.
+	 */
 	public static void main(String[] args) {
 		Scanner tutka = new Scanner(System.in);
 		System.out.println("Anna matka: ");

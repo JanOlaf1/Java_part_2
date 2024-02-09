@@ -1,6 +1,11 @@
 import java.util.Scanner;
 
 public class Cooper {
+	/*
+	 * Tämä ohjelma, nimeltään Cooper, kysyy käyttäjältä juostun matkan ja laskee,
+	 * montako kokonaista 400 metrin kierrosta se vastaa. Ohjelma käyttää kaavaa:
+	 * kierrosten määrä = matka / 400.
+	 */
 	public static void main(String[] args) {
 
 		Scanner vastaus = new Scanner(System.in);

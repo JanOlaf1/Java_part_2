@@ -2,6 +2,10 @@ import java.util.Scanner;
 import java.text.DecimalFormat;
 
 public class Bensa {
+	/*
+	 * Tässä on ohjelma nimeltään Bensa, joka laskee kilometrihinnan käyttäjän
+	 * syöttämien tietojen perusteella:
+	 */
 	public static void main(String[] args) {
 		Scanner tutka = new Scanner(System.in);
 		System.out.println("Anna tankattu määrä: ");

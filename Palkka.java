@@ -1,6 +1,17 @@
+
 import java.util.Scanner;
 import java.text.DecimalFormat;
+
 public class Palkka {
+	/*
+	 * Tämä ohjelma, nimeltään Palkka, kysyy käyttäjältä bruttopalkan, veroprosentin
+	 * ja iän. Se laskee käteen jäävän osuuden palkasta vähentämällä verot,
+	 * työttömyysvakuutuksen (1.5%), ja työeläkemaksun. Veron osuus lasketaan
+	 * kaavalla palkka * veroprosentti / 100.0, työeläkevakuutusmaksun osuus on
+	 * palkka * XX, missä XX on 0.0825 tai 0.0675 iästä riippuen, ja
+	 * työttömyysvakuutuksen osuus on palkka * 0.015. Käteen jäävä osuus on palkka -
+	 * vero - työttömyysvakuutus - työeläkevakuutusmaksu.
+	 */
 	public static void main(String[] args) {
 		Scanner tutka = new Scanner(System.in);
 		System.out.println("Anna palkka: ");
@@ -24,7 +35,7 @@ public class Palkka {
 		double käteenJäävä = palkka - vero - työttömyysvakuutus - työeläkevakuutusMaksu;
 
 		DecimalFormat kaksi = new DecimalFormat("0.00");
-		
+
 		System.out.println("Bruttopalkka " + palkka);
 		System.out.println("Veron osuus " + kaksi.format(vero));
 		System.out.println("Työeläkevakuutusmaksun osuus " + kaksi.format(työeläkevakuutusMaksu));

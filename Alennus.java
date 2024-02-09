@@ -2,6 +2,10 @@ import java.util.Scanner;
 import java.text.DecimalFormat;
 
 public class Alennus {
+	/*
+	 * Tässä on ohjelma nimeltään Alennus, joka laskee tuotteen alennetun hinnan
+	 * käyttäjän syöttämien tietojen perusteella:
+	 */
 	public static void main(String[] args) {
 		Scanner skanneri = new Scanner(System.in);
 		System.out.println("Anna alentamaton hinta: ");

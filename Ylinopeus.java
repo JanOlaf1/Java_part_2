@@ -1,6 +1,11 @@
 import java.util.Scanner;
 
 public class Ylinopeus {
+	/*
+	 * Tässä on yksinkertainen Ylinopeus.java -ohjelma, joka kysyy käyttäjältä
+	 * kokonaisluvun ja tulostaa "Ylinopeussakko!" vain jos luku on suurempi kuin
+	 * 120:
+	 */
 	public static void main(String[] args) {
 		Scanner scanner = new Scanner(System.in);
 
